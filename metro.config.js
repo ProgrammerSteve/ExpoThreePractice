@@ -40,11 +40,7 @@ module.exports = (async () => {
 
   return {
     resolver: {
-      assetExts: [...assetExts, "mtl", "obj"],
+      assetExts: [...assetExts, "mtl", "obj", "fbx", "gltf"],
     },
-    // transformer: {
-    //   // babelTransformerPath: require.resolve('react-native-svg-transformer'),
-    //   assetPlugins: ["expo-asset/tools/hashAssetFiles"],
-    // },
   };
 })();
