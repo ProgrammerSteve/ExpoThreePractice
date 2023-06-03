@@ -40,7 +40,7 @@ module.exports = (async () => {
 
   return {
     resolver: {
-      assetExts: [...assetExts, "mtl", "obj", "fbx", "gltf"],
+      assetExts: [...assetExts, "mtl", "obj", "fbx", "glb", "gltf"],
     },
   };
 })();
